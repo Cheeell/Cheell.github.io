@@ -19,7 +19,7 @@ export default function Footer() {
               <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">StrategyAI</span>
             </div>
             <p className="text-gray-300 mb-8 max-w-md leading-relaxed text-lg">
-              Transform your marketing approach with AI-powered insights. Get personalized strategies that actually work.
+              Transform your marketing approach with AI-powered insights. Get personalized strategies that actually work DIma frog.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-blue-600 transition-all duration-300">
