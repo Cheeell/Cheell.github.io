@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://strategyai.com/</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Blog Main Page -->
+  <url>
+    <loc>https://strategyai.com/blog</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://strategyai.com/blog/ai-marketing-strategies-2024-complete-guide</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>StrategyAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-15</news:publication_date>
+      <news:title>The Ultimate Guide to AI-Powered Marketing Strategies in 2024</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://strategyai.com/blog/small-business-marketing-budget-strategies</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>StrategyAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-10</news:publication_date>
+      <news:title>Small Business Marketing on a Budget: 10 Cost-Effective Strategies</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://strategyai.com/blog/social-media-marketing-trends-2024</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>StrategyAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-08</news:publication_date>
+      <news:title>Social Media Marketing Trends to Watch in 2024</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://strategyai.com/blog/email-marketing-best-practices-increase-open-rates</loc>
+    <lastmod>2024-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>StrategyAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-05</news:publication_date>
+      <news:title>Email Marketing Best Practices: How to Increase Open Rates by 40%</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://strategyai.com/blog/content-marketing-roi-measure-improve-results</loc>
+    <lastmod>2024-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>StrategyAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-03</news:publication_date>
+      <news:title>Content Marketing ROI: How to Measure and Improve Your Results</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://strategyai.com/blog/digital-marketing-trends-2024-business-success</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>StrategyAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-01</news:publication_date>
+      <news:title>Digital Marketing Trends 2024: What Every Business Needs to Know</news:title>
+    </news:news>
+  </url>
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://strategyai.com/pricing</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://strategyai.com/about</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
