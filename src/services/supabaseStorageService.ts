@@ -8,6 +8,17 @@ class SupabaseStorageService {
     businessName?: string;
     industry?: string;
     businessType?: string;
+    businessUrl?: string;
+    areaOfOperation?: string;
+    targetAudience?: string;
+    currentRevenue?: string;
+    marketingBudget?: string;
+    marketingGoals?: string[];
+    currentChallenges?: string[];
+    competitorAnalysis?: string;
+    uniqueValue?: string;
+    currentMarketing?: string[];
+    timeframe?: string;
     paymentStatus?: 'completed' | 'pending' | 'failed';
     strategyGenerated?: boolean;
     emailSent?: boolean;
@@ -22,6 +33,16 @@ class SupabaseStorageService {
           industry: emailData.industry,
           website: emailData.businessUrl,
           business_type: emailData.businessType,
+          area_of_operation: emailData.areaOfOperation,
+          target_audience: emailData.targetAudience,
+          current_revenue: emailData.currentRevenue,
+          marketing_budget: emailData.marketingBudget,
+          marketing_goals: emailData.marketingGoals,
+          current_challenges: emailData.currentChallenges,
+          competitor_analysis: emailData.competitorAnalysis,
+          unique_value: emailData.uniqueValue,
+          current_marketing: emailData.currentMarketing,
+          timeframe: emailData.timeframe,
           payment_status: emailData.paymentStatus || 'pending',
           strategy_generated: emailData.strategyGenerated || false,
           email_sent: emailData.emailSent || false,
