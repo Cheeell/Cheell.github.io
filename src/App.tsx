@@ -38,15 +38,25 @@ function App() {
   const handleQuestionnaireComplete = (data: any) => {
     setBusinessData(data);
     
-    // Store survey completion
+    // Store survey completion with ALL fields
     supabaseStorageService.saveEmail({
       email: data.email || 'survey-only@temp.com',
       businessName: data.businessName,
       industry: data.industry,
       businessType: data.businessType,
+      businessUrl: data.businessUrl,
+      areaOfOperation: data.areaOfOperation,
+      targetAudience: data.targetAudience,
+      currentRevenue: data.currentRevenue,
+      marketingBudget: data.marketingBudget,
+      marketingGoals: data.marketingGoals,
+      currentChallenges: data.currentChallenges,
+      competitorAnalysis: data.competitorAnalysis,
+      uniqueValue: data.uniqueValue,
+      currentMarketing: data.currentMarketing,
+      timeframe: data.timeframe,
       paymentStatus: 'pending',
-      surveyData: data ,
-      businessUrl: data.businessUrl
+      surveyData: data
     });
     
     // Check if payment is required
