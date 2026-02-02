@@ -20,7 +20,7 @@ class SupabaseStorageService {
           email: emailData.email,
           business_name: emailData.businessName,
           industry: emailData.industry,
-          url: emailData.businessUrl
+          url: emailData.businessUrl,
           business_type: emailData.businessType,
           payment_status: emailData.paymentStatus || 'pending',
           strategy_generated: emailData.strategyGenerated || false,
