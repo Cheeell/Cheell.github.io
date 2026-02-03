@@ -28,7 +28,7 @@ export default function HowItWorks() {
       number: 4,
       icon: Mail,
       title: "Instant Delivery",
-      description: "Receive your custom marketing strategy in your inbox within minutes, ready to implement or share.",
+      description: "Receive your custom marketing strategy in your inbox within days, ready to implement or share.",
       color: "orange"
     }
   ];
