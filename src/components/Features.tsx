@@ -30,7 +30,7 @@ export default function Features() {
     {
       icon: Clock,
       title: "Save Time & Money",
-      description: "Skip expensive consultants and months of research. Get strategic insights in just 1 hour.",
+      description: "Skip expensive consultants and months of research. Get strategic insights in just 7 days.",
       color: "pink"
     },
     {
