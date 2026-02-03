@@ -31,7 +31,7 @@ export default function Pricing({ onGetStarted }: PricingProps) {
     {
       feature: 'Delivery Time',
       agency: '2-4 weeks',
-      us: '1 hour'
+      us: '1 week hour'
     },
     {
       feature: 'Revisions',
