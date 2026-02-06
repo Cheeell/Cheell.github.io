@@ -17,7 +17,7 @@ export default function Features() {
     },
     {
       icon: Palette,
-      title: "Expert refinement ",
+      title: "Expert Refinement ",
       description: "Strategy reviewed and refined by Marta Belya personally to ensure  each plan tailored to your unique business needs.",
       color: "purple"
     },
