@@ -66,7 +66,7 @@ export default function HowItWorks() {
         <div className="mt-20 text-center relative">
           <div className="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-blue-100 to-green-100 text-blue-800 text-sm font-semibold shadow-lg border border-blue-200/50">
             <span className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
-            <span className="bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">Average completion time: 1 hour</span>
+            <span className="bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">Average completion time: 5-7 days</span>
           </div>
         </div>
       </div>
