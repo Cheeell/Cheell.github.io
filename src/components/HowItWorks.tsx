@@ -17,15 +17,15 @@ export default function HowItWorks() {
       description: "Our advanced AI analyzes your responses and generates a comprehensive marketing strategy tailored to your business.",
       color: "green"
     },
+    // {
+    //   number: 3,
+    //   icon: FileText,
+    //   title: "Beautiful Design",
+    //   description: "Your strategy is automatically formatted into a professionally designed PDF with visual elements and charts.",
+    //   color: "purple"
+    // },
     {
       number: 3,
-      icon: FileText,
-      title: "Beautiful Design",
-      description: "Your strategy is automatically formatted into a professionally designed PDF with visual elements and charts.",
-      color: "purple"
-    },
-    {
-      number: 4,
       icon: Mail,
       title: "Instant Delivery",
       description: "Receive your custom marketing strategy in your inbox within days, ready to implement or share.",
