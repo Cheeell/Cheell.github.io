@@ -24,7 +24,7 @@ export default function Features() {
     {
       icon: Mail,
       title: "Instant Delivery",
-      description: "Your custom marketing strategy is generated and delivered to your email within hour.",
+      description: "Your custom marketing strategy is generated and delivered to your email within 5 to 7 days.",
       color: "orange"
     },
     {
