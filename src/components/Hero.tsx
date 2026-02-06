@@ -32,7 +32,7 @@ export default function Hero({ onGetStarted }: HeroProps) {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Stop guessing with your marketing. Our AI-powered platform analyzes your business and creates a personalized marketing strategy with visual guides - delivered as a beautiful PDF report.
+            Stop guessing with your marketing. Our AI-powered tool analyzes your business and creates a personalized marketing strategy tailored to your needs - delivered as a beautiful PDF report.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
