@@ -6,7 +6,7 @@ export default function Features() {
     {
       icon: Brain,
       title: "AI-Powered Analysis",
-      description: "Our advanced AI solution analyzes your business model, industry, and goals to create tailored to your needs strategy strategies.",
+      description: "Our advanced AI solution analyzes your business model, industry, and goals to create tailored to your needs strategy.",
       color: "blue"
     },
     {
