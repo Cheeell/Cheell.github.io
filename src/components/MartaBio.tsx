@@ -30,7 +30,7 @@ export default function MartaBio() {
             <div className="relative inline-block mb-8">
               <div className="w-80 h-80 mx-auto lg:mx-0 rounded-3xl bg-gradient-to-br from-blue-100 to-purple-100 shadow-2xl border-4 border-white overflow-hidden relative">
                 <img 
-                  src="/telegram-cloud-photo-size-2-5454404528444143273-y.jpg"
+                  src="https://nkqttxagildaxxpllhsg.supabase.co/storage/v1/object/public/Images/photo_2021-10-28_18-18-36.jpg"
                   alt="Marta Belya - Marketing Strategist"
                   className="w-full h-full object-cover"
                 />
