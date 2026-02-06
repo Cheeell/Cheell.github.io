@@ -28,7 +28,7 @@ export default function Hero({ onGetStarted }: HeroProps) {
               Custom Marketing Strategy
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600/20 to-purple-600/20 blur-lg -z-10"></div>
             </span>
-            {' '}in hour
+            {' '}from expert
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
