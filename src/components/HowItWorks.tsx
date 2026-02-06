@@ -17,13 +17,6 @@ export default function HowItWorks() {
       description: "Our advanced AI analyzes your responses and generates a comprehensive marketing strategy tailored to your business.",
       color: "green"
     },
-    // {
-    //   number: 3,
-    //   icon: FileText,
-    //   title: "Beautiful Design",
-    //   description: "Your strategy is automatically formatted into a professionally designed PDF with visual elements and charts.",
-    //   color: "purple"
-    // },
     {
       number: 3,
       icon: Mail,
@@ -32,7 +25,6 @@ export default function HowItWorks() {
       color: "orange"
     }
   ];
-
   return (
     <section id="how-it-works" className="py-24 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
       <div className="absolute inset-0">
@@ -49,13 +41,12 @@ export default function HowItWorks() {
             How It Works
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Get your custom marketing strategy in just 4 simple steps
+            Get your custom marketing strategy in just 3 simple steps
           </p>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
           {/* Connection lines for desktop */}
-          <div className="hidden lg:block absolute top-10 left-1/4 right-1/4 h-0.5 bg-gradient-to-r from-blue-200 via-purple-200 to-orange-200"></div>
+          <div className="hidden md:block absolute top-10 left-1/4 right-1/4 h-0.5 bg-gradient-to-r from-blue-200 via-purple-200 to-orange-200"></div>
           
           {steps.map((step, index) => (
             <div key={index} className="text-center relative">
@@ -72,7 +63,6 @@ export default function HowItWorks() {
             </div>
           ))}
         </div>
-
         <div className="mt-20 text-center relative">
           <div className="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-blue-100 to-green-100 text-blue-800 text-sm font-semibold shadow-lg border border-blue-200/50">
             <span className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
