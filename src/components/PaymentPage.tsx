@@ -303,7 +303,7 @@ export default function PaymentPage({ businessData, onPaymentComplete, onBack }:
                 <Star className="w-6 h-6 text-purple-600 mr-3" />
                 <div>
                   <div className="font-semibold text-purple-900">4.9/5 Rating</div>
-                  <div className="text-sm text-purple-700">From 2,000+ satisfied customers</div>
+                  <div className="text-sm text-purple-700">From 100 satisfied customers</div>
                 </div>
               </div>
             </div>
