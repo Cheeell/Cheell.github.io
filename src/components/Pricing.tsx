@@ -131,7 +131,7 @@ export default function Pricing({ onGetStarted }: PricingProps) {
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">
                 <Check className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
-                <span>1 hour delivery</span>
+                <span>5-7 days delivery</span>
               </li>
               <li className="flex items-center text-gray-700">
                 <Check className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
