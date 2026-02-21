@@ -52,8 +52,8 @@ export default function MartaBio() {
                 <div className="text-sm text-gray-600 font-medium">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-white rounded-2xl shadow-lg border border-gray-100">
-                <div className="text-2xl font-bold text-green-600">500+</div>
-                <div className="text-sm text-gray-600 font-medium">Strategies Created</div>
+                <div className="text-2xl font-bold text-green-600">50+</div>
+                <div className="text-sm text-gray-600 font-medium">Projects Strategized</div>
               </div>
               <div className="text-center p-4 bg-white rounded-2xl shadow-lg border border-gray-100">
                 <div className="text-2xl font-bold text-purple-600">90</div>
