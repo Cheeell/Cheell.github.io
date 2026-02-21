@@ -264,7 +264,7 @@ export default function Pricing({ onGetStarted }: PricingProps) {
                 <Star className="w-8 h-8 text-orange-600" />
               </div>
               <h4 className="font-bold text-gray-900 mb-2">4.9/5 Rating</h4>
-              <p className="text-sm text-gray-600">Loved by 2,000+ businesses</p>
+              <p className="text-sm text-gray-600">Loved by 100+ businesses</p>
             </div>
           </div>
         </div>
