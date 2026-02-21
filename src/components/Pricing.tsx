@@ -41,7 +41,7 @@ export default function Pricing({ onGetStarted }: PricingProps) {
     {
       feature: 'Implementation Support',
       agency: 'Additional cost',
-      us: 'Included in strategy'
+      us: 'Personal Consultation'
     }
   ];
 
