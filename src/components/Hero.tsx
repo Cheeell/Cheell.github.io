@@ -47,7 +47,7 @@ export default function Hero({ onGetStarted }: HeroProps) {
               <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
               <span className="font-medium">
                 {isPaymentRequired() 
-                  ? 'Fast • delivery • Secure payment' 
+                  ? 'Fast • Delivery • Secure Payment' 
                   : getPaymentMode() === 'free-trial'
                   ? 'Free Trial • 1 hour • No credit card required'
                   : 'Free • 1 hour • No payment required'}
