@@ -87,7 +87,7 @@ export default function Testimonials() {
               </div>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
-              <p className="text-4xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">2,000+</p>
+              <p className="text-4xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">100+</p>
               <p className="text-sm text-gray-600 mt-2 font-medium">Strategies generated</p>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
