@@ -23,7 +23,7 @@ export default function PaymentPage({ businessData, onPaymentComplete, onBack }:
   });
 
   //const STRIPE_PAYMENT_URL = 'https://buy.stripe.com/5kQ00leCbh153601Kn5Vu00';
-  const STRIPE_PAYMENT_URL = 'https://buy.stripe.com/test_6oUdRb677al7cEGf356EU01';
+  const STRIPE_PAYMENT_URL = 'https://buy.stripe.com/14AdRbdy79yDays74H5Vu03';
   const PAYPAL_PAYMENT_URL = 'https://www.paypal.com/ncp/payment/58AM5HUW54PNA';
 
   // Check if payment should be skipped
