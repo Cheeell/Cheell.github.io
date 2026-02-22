@@ -163,9 +163,6 @@ function App() {
         path="/thanks" 
         element={
           <ThankYouPage
-            businessData={businessData}
-            paymentData={paymentData}
-            onStartOver={handleStartOver}
           />
         } 
       />
