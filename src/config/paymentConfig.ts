@@ -23,7 +23,7 @@ export const PAYMENT_CONFIG: PaymentConfig = {
   
   // Payment URLs
   //stripePaymentUrl: 'https://buy.stripe.com/5kQ00leCbh153601Kn5Vu00',
-  stripePaymentUrl: 'https://buy.stripe.com/test_4gMeVfeDD1OB0VY3kn6EU00',
+  stripePaymentUrl: 'https://buy.stripe.com/3cIdRbgKjaCH0XSagT5Vu05',
   paypalPaymentUrl: 'https://www.paypal.com/ncp/payment/58AM5HUW54PNA',
   
   // Pricing
