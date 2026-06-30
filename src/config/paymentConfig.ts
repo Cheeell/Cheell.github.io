@@ -27,7 +27,7 @@ export const PAYMENT_CONFIG: PaymentConfig = {
   paypalPaymentUrl: 'https://www.paypal.com/ncp/payment/58AM5HUW54PNA',
   
   // Pricing
-  price: 50,
+  price: 99,
   currency: 'GBP'
 };
 

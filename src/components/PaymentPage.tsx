@@ -11,6 +11,7 @@ interface PaymentPageProps {
   onBack: () => void;
 }
 
+
 export default function PaymentPage({ businessData, onPaymentComplete, onBack }: PaymentPageProps) {
   const location = useLocation();
   const [isProcessing, setIsProcessing] = useState(false);
@@ -23,7 +24,7 @@ export default function PaymentPage({ businessData, onPaymentComplete, onBack }:
   });
 
   //const STRIPE_PAYMENT_URL = 'https://buy.stripe.com/5kQ00leCbh153601Kn5Vu00';
-  const STRIPE_PAYMENT_URL = 'https://buy.stripe.com/test_6oU14o16mfwc4om6BG08g01';
+  const STRIPE_PAYMENT_URL = 'https://buy.stripe.com/3cIdRbgKjaCH0XSagT5Vu05';
   const PAYPAL_PAYMENT_URL = 'https://www.paypal.com/ncp/payment/58AM5HUW54PNA';
 
   // Check if payment should be skipped
@@ -311,7 +312,7 @@ export default function PaymentPage({ businessData, onPaymentComplete, onBack }:
             <div className="mt-6 pt-6 border-t border-gray-200">
               <div className="flex justify-between items-center text-lg font-bold">
                 <span>Total</span>
-                <span className="text-green-600">£50.00</span>
+                <span className="text-green-600">£99.00</span>
               </div>
               <p className="text-sm text-gray-500 mt-1">One-time payment • No recurring charges</p>
             </div>
@@ -493,7 +494,7 @@ export default function PaymentPage({ businessData, onPaymentComplete, onBack }:
                 ) : (
                   <>
                     <ExternalLink className="w-5 h-5 mr-2" />
-                    Pay Securely with {paymentMethod === 'stripe' ? 'Stripe' : 'PayPal'} - £50
+                    Pay Securely with {paymentMethod === 'stripe' ? 'Stripe' : 'PayPal'} - £99
                   </>
                 )}
               </button>

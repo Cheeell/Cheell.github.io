@@ -31,7 +31,7 @@ export default function Pricing({ onGetStarted }: PricingProps) {
     {
       feature: 'Delivery Time',
       agency: '2-4 weeks',
-      us: '5 days'
+      us: '1 day'
     },
     {
       feature: 'Revisions',
@@ -70,7 +70,7 @@ export default function Pricing({ onGetStarted }: PricingProps) {
             Most marketing agencies charge between <span className="font-semibold text-red-600">£500 and £2,500</span> for a strategy in Europe and the UK — and that's often just the starting point.
           </p>
           <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
-            We believe great strategy shouldn't be a luxury. That's why we offer a professional, tailored marketing strategy for just <span className="font-bold text-green-600">£50</span>, giving small and growing businesses the clarity they need without the high price tag.
+            We believe great strategy shouldn't be a luxury. That's why we offer a professional, tailored marketing strategy for just <span className="font-bold text-green-600">£99</span>, giving small and growing businesses the clarity they need without the high price tag.
           </p>
         </div>
 
@@ -113,7 +113,7 @@ export default function Pricing({ onGetStarted }: PricingProps) {
             </div>
             <div className="text-center mb-6">
               <h3 className="text-xl font-bold text-gray-900 mb-2">StrategyAI</h3>
-              <div className="text-5xl font-bold text-green-600 mb-2">£50</div>
+              <div className="text-5xl font-bold text-green-600 mb-2">£99</div>
               <p className="text-gray-600">One-time payment</p>
             </div>
             
@@ -188,7 +188,7 @@ export default function Pricing({ onGetStarted }: PricingProps) {
         {/* What's Included */}
         <div className="bg-white rounded-2xl p-10 shadow-2xl border border-gray-100 mb-16">
           <div className="text-center mb-10">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">What's Included in Your £50 Strategy</h3>
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">What's Included in Your £99 Strategy</h3>
             <p className="text-lg text-gray-600">Everything you need to transform your marketing approach</p>
           </div>
           

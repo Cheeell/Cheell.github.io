@@ -218,7 +218,7 @@ export default function ThankYouPage({ onStartOver = () => {} }) {
 
             <div className="badge">
               <div className="badge-dot" />
-              Payment Confirmed — £50.00
+              Payment Confirmed — £99.00
             </div>
 
             <h1>Thank you.</h1>
