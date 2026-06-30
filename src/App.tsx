@@ -14,6 +14,7 @@ import StrategyResults from './components/StrategyResults';
 import PaymentPage from './components/PaymentPage';
 import AdminDashboard from './components/AdminDashboard';
 import ThankYouPage from './components/ThankYouPage';
+import { supabase } from './services/supabaseClient';
 import { supabaseStorageService } from './services/supabaseStorageService';
 import { isPaymentRequired, shouldSkipPayment } from './config/paymentConfig';
 
