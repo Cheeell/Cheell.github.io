@@ -37,27 +37,38 @@ function App() {
   };
 
   const handleQuestionnaireComplete = (data: any) => {
-    setBusinessData(data);
-    
-    // Store survey completion with ALL fields
-    supabaseStorageService.saveEmail({
-      email: data.email || 'survey-only@temp.com',
-      businessName: data.businessName,
-      industry: data.industry,
-      businessType: data.businessType,
-      businessUrl: data.businessUrl,
-      areaOfOperation: data.areaOfOperation,
-      targetAudience: data.targetAudience,
-      currentRevenue: data.currentRevenue,
-      marketingBudget: data.marketingBudget,
-      marketingGoals: data.marketingGoals,
-      currentChallenges: data.currentChallenges,
-      competitorAnalysis: data.competitorAnalysis,
-      uniqueValue: data.uniqueValue,
-      currentMarketing: data.currentMarketing,
-      timeframe: data.timeframe,
-      paymentStatus: 'pending',
-      surveyData: data
+  setBusinessData(data);
+
+  // Store survey completion with ALL fields
+  supabaseStorageService.saveEmail({
+    email: data.email || 'survey-only@temp.com',
+    businessName: data.businessName,
+    industry: data.industry,
+    businessType: data.businessType,
+    businessUrl: data.businessUrl,
+    areaOfOperation: data.areaOfOperation,
+    targetAudience: data.targetAudience,
+    currentRevenue: data.currentRevenue,
+    marketingBudget: data.marketingBudget,
+    marketingGoals: data.marketingGoals,
+    currentChallenges: data.currentChallenges,
+    competitorAnalysis: data.competitorAnalysis,
+    uniqueValue: data.uniqueValue,
+    currentMarketing: data.currentMarketing,
+    timeframe: data.timeframe,
+    paymentStatus: 'pending',
+    surveyData: data
+  });
+
+  // Also store in completed_questionnaires — DB rejects this insert
+  // unless every required question was answered
+  supabase
+    .from('completed_questionnaires')
+    .insert({ email: data.email || 'survey-only@temp.com', survey_data: data })
+    .then(({ error }) => {
+      if (error) {
+        console.error('Incomplete submission blocked:', error.message);
+      }
     });
     
     // Check if payment is required
